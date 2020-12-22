@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f6816dd194.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="partical.css">
+
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+
+    <!-- header -->
+    <header>
+        <input type="checkbox" name="" id="">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SKILLS</a>
+        <a href="#">PROJECTS</a>
+    </header>
+
+    
+    <!-- Section 1 -->
+    <section class="main">
+        <div class="img-box data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500"">
+            <img src="1.jpeg" alt="">
+        </div>
+        <h1 style="font-size: 2.5rem;margin-left: 20px;">Hi, I'm Shubham.<br>Front-end Developer.</h1>
+        
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/shubham-raut-8b185a1a6/" target="a"><i class="fab fa-linkedin fa-2x"></i></i></a>
+        <a href="https://www.instagram.com/shubham__raut44/" target="a"><i class="fab fa-instagram-square fa-2x"></i></a>
+        <a href="https://github.com/shubham44-code" target="a"><i class="fab fa-github-square fa-2x"></i></i></a>
+    </div>
+    </section>
+
+    <!-- icons -->
+
+
+    <!-- about section -->
+
+    <div class="about">
+        <h1 style="margin-bottom: 30px; font-size: 4rem;">ABOUT</h1>
+        <p style="margin-left: 20px;font-size: 1.8rem;">Hello! My name is shubham, and I'm a web developer. <br>
+            I have a diverse set of skills, ranging from design,<br> to HTML + CSS + javascript.
+        </p>
+    </div>
+
+    <!-- skills -->
+
+    <div class="skills">
+        <h1 style="margin-bottom: 30px; font-size: 4rem;">skills</h1>
+        <div class="tabs center">
+            <div><i class="fab fa-html5 fa-3x"></i><br><p style="margin-top: 10px;">HTML</p></div>
+            <div><i class="fab fa-css3-alt fa-3x"></i><br><p style="margin-top: 10px;">CSS</p></div>
+            <div><i class="fab fa-js-square fa-3x"></i><br><p style="margin-top: 10px;">JS</p></div>
+            <div><i class="fab fa-react fa-3x"></i></i><br><p style="margin-top: 10px;">REACT</p></div>
+            <div><i class="fab fa-node-js fa-3x"></i></i><br><p style="margin-top: 10px;">NODE-JS</p></div>
+            <div><i class="fab fa-git-alt fa-3x"></i></i></i><br><p style="margin-top: 10px;">GIT</p></div>
+        </div>
+    </div>
+
+
+    <!-- projects -->
+
+    <div class="projects">
+        <h1 style="margin-bottom: 30px; font-size: 4rem;">PROJECTS</h1>
+            <ol style="margin-left: 50px;"> 
+                <li>
+                    <a href="https://github.com/shubham44-code/Harry-Potter-Api" style="color: white; text-decoration: none;">
+                    HARRY POTTER WEBSITE:-
+                    This Website Shows the Details about Harry Potter.<br> It Defines the Houses that are shown in Harry Potter Show.
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/shubham44-code/Random-Meme-Generator" style="color: white; text-decoration: none;">
+                    Random-Meme-Generator:-
+                    Its show random meme on page.
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/shubham44-code/Movies-Search-Api-Js" style="color: white; text-decoration: none;">
+                    Movies-Search-Api-Js:-
+                    Serach movies and get full details.
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/shubham44-code/COVID-19-Tracker" style="color: white; text-decoration: none;">
+                    COVID-19-Tracker:-
+                    COVID-19 tracker using HTML, CSS and JS.
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/shubham44-code/Weather-App" style="color: white; text-decoration: none;">
+                    Weather-App:-
+                    Weather Application using HTML, CSS and JS.
+                    </a>
+                </li>
+            </ol>
+    </div>
+
+
+    <script type="text/javascript" src="node_modules\vanilla-tilt\lib\vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".img-box"), {
+            max: 25,
+            speed: 400
+        });
+        
+    </script>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <script src="partical.js"></script>
+</body>
+</html>
